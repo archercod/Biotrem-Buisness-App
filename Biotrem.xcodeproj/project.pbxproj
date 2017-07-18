@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA11F8E41F1CAFA8003AA291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F8E31F1CAFA8003AA291 /* AppDelegate.swift */; };
+		EA11F8E61F1CAFA8003AA291 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F8E51F1CAFA8003AA291 /* FirstViewController.swift */; };
+		EA11F8EB1F1CAFA8003AA291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA11F8E91F1CAFA8003AA291 /* Main.storyboard */; };
+		EA11F8ED1F1CAFA8003AA291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA11F8EC1F1CAFA8003AA291 /* Assets.xcassets */; };
+		EA11F8F01F1CAFA8003AA291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA11F8EE1F1CAFA8003AA291 /* LaunchScreen.storyboard */; };
+		EA11F8F91F1CEF47003AA291 /* OurIdeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F8F81F1CEF47003AA291 /* OurIdeaViewController.swift */; };
+		EA11F8FC1F1CEF75003AA291 /* TechnologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F8FB1F1CEF75003AA291 /* TechnologyViewController.swift */; };
+		EA11F8FE1F1CEFAE003AA291 /* BranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F8FD1F1CEFAE003AA291 /* BranViewController.swift */; };
+		EA11F9011F1CEFD5003AA291 /* WhereToBuyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F9001F1CEFD5003AA291 /* WhereToBuyTableViewController.swift */; };
+		EA11F9031F1CEFE6003AA291 /* WhereToBuyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F9021F1CEFE6003AA291 /* WhereToBuyTableViewCell.swift */; };
+		EA11F9081F1CF045003AA291 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F9071F1CF045003AA291 /* ContactUsViewController.swift */; };
+		EA11F90B1F1CF072003AA291 /* OfferTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F90A1F1CF072003AA291 /* OfferTableViewController.swift */; };
+		EA11F90D1F1CF083003AA291 /* OfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F90C1F1CF083003AA291 /* OfferTableViewCell.swift */; };
+		EA11F90F1F1CF096003AA291 /* OfferDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F90E1F1CF096003AA291 /* OfferDetailsViewController.swift */; };
+		EA11F9111F1CF10A003AA291 /* DetailsWhereToBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F9101F1CF10A003AA291 /* DetailsWhereToBuyViewController.swift */; };
+		EA11F9141F1DFD50003AA291 /* EmailUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11F9131F1DFD50003AA291 /* EmailUsViewController.swift */; };
+		EA11F9171F1DFFC8003AA291 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA11F9161F1DFFC8003AA291 /* MapKit.framework */; };
+		EA11F91B1F1DFFD8003AA291 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA11F91A1F1DFFD8003AA291 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA11F8E01F1CAFA8003AA291 /* Biotrem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biotrem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA11F8E31F1CAFA8003AA291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA11F8E51F1CAFA8003AA291 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EA11F8EA1F1CAFA8003AA291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA11F8EC1F1CAFA8003AA291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA11F8EF1F1CAFA8003AA291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA11F8F11F1CAFA8003AA291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA11F8F81F1CEF47003AA291 /* OurIdeaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurIdeaViewController.swift; sourceTree = "<group>"; };
+		EA11F8FB1F1CEF75003AA291 /* TechnologyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnologyViewController.swift; sourceTree = "<group>"; };
+		EA11F8FD1F1CEFAE003AA291 /* BranViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranViewController.swift; sourceTree = "<group>"; };
+		EA11F9001F1CEFD5003AA291 /* WhereToBuyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhereToBuyTableViewController.swift; sourceTree = "<group>"; };
+		EA11F9021F1CEFE6003AA291 /* WhereToBuyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhereToBuyTableViewCell.swift; sourceTree = "<group>"; };
+		EA11F9071F1CF045003AA291 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		EA11F90A1F1CF072003AA291 /* OfferTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferTableViewController.swift; sourceTree = "<group>"; };
+		EA11F90C1F1CF083003AA291 /* OfferTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferTableViewCell.swift; sourceTree = "<group>"; };
+		EA11F90E1F1CF096003AA291 /* OfferDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferDetailsViewController.swift; sourceTree = "<group>"; };
+		EA11F9101F1CF10A003AA291 /* DetailsWhereToBuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsWhereToBuyViewController.swift; sourceTree = "<group>"; };
+		EA11F9131F1DFD50003AA291 /* EmailUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailUsViewController.swift; sourceTree = "<group>"; };
+		EA11F9161F1DFFC8003AA291 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EA11F9181F1DFFD2003AA291 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		EA11F91A1F1DFFD8003AA291 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA11F8DD1F1CAFA8003AA291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA11F91B1F1DFFD8003AA291 /* MessageUI.framework in Frameworks */,
+				EA11F9171F1DFFC8003AA291 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA11F8D71F1CAFA8003AA291 = {
+			isa = PBXGroup;
+			children = (
+				EA11F8E21F1CAFA8003AA291 /* Biotrem */,
+				EA11F8E11F1CAFA8003AA291 /* Products */,
+				EA11F9151F1DFFC7003AA291 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA11F8E11F1CAFA8003AA291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA11F8E01F1CAFA8003AA291 /* Biotrem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA11F8E21F1CAFA8003AA291 /* Biotrem */ = {
+			isa = PBXGroup;
+			children = (
+				EA11F9121F1DFD41003AA291 /* EmailUs */,
+				EA11F9091F1CF064003AA291 /* Offer */,
+				EA11F9061F1CF02A003AA291 /* ContactUs */,
+				EA11F8FF1F1CEFBD003AA291 /* WhereToBuy */,
+				EA11F8FA1F1CEF65003AA291 /* Technology */,
+				EA11F8F71F1CEF33003AA291 /* OurIdea */,
+				EA11F8E31F1CAFA8003AA291 /* AppDelegate.swift */,
+				EA11F8E51F1CAFA8003AA291 /* FirstViewController.swift */,
+				EA11F8E91F1CAFA8003AA291 /* Main.storyboard */,
+				EA11F8EC1F1CAFA8003AA291 /* Assets.xcassets */,
+				EA11F8EE1F1CAFA8003AA291 /* LaunchScreen.storyboard */,
+				EA11F8F11F1CAFA8003AA291 /* Info.plist */,
+			);
+			path = Biotrem;
+			sourceTree = "<group>";
+		};
+		EA11F8F71F1CEF33003AA291 /* OurIdea */ = {
+			isa = PBXGroup;
+			children = (
+				EA11F8F81F1CEF47003AA291 /* OurIdeaViewController.swift */,
+			);
+			name = OurIdea;
+			sourceTree = "<group>";
+		};
+		EA11F8FA1F1CEF65003AA291 /* Technology */ = {
+			isa = PBXGroup;
+			children = (
+				EA11F8FB1F1CEF75003AA291 /* TechnologyViewController.swift */,
+				EA11F8FD1F1CEFAE003AA291 /* BranViewController.swift */,
+			);
+			name = Technology;
+			sourceTree = "<group>";
+		};
+		EA11F8FF1F1CEFBD003AA291 /* WhereToBuy */ = {
+			isa = PBXGroup;
+			children = (
+				EA11F9001F1CEFD5003AA291 /* WhereToBuyTableViewController.swift */,
+				EA11F9021F1CEFE6003AA291 /* WhereToBuyTableViewCell.swift */,
+				EA11F9101F1CF10A003AA291 /* DetailsWhereToBuyViewController.swift */,
+			);
+			name = WhereToBuy;
+			sourceTree = "<group>";
+		};
+		EA11F9061F1CF02A003AA291 /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+				EA11F9071F1CF045003AA291 /* ContactUsViewController.swift */,
+			);
+			name = ContactUs;
+			sourceTree = "<group>";
+		};
+		EA11F9091F1CF064003AA291 /* Offer */ = {
+			isa = PBXGroup;
+			children = (
+				EA11F90A1F1CF072003AA291 /* OfferTableViewController.swift */,
+				EA11F90C1F1CF083003AA291 /* OfferTableViewCell.swift */,
+				EA11F90E1F1CF096003AA291 /* OfferDetailsViewController.swift */,
+			);
+			name = Offer;
+			sourceTree = "<group>";
+		};
+		EA11F9121F1DFD41003AA291 /* EmailUs */ = {
+			isa = PBXGroup;
+			children = (
+				EA11F9131F1DFD50003AA291 /* EmailUsViewController.swift */,
+			);
+			name = EmailUs;
+			sourceTree = "<group>";
+		};
+		EA11F9151F1DFFC7003AA291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA11F91A1F1DFFD8003AA291 /* MessageUI.framework */,
+				EA11F9181F1DFFD2003AA291 /* Messages.framework */,
+				EA11F9161F1DFFC8003AA291 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA11F8DF1F1CAFA8003AA291 /* Biotrem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA11F8F41F1CAFA8003AA291 /* Build configuration list for PBXNativeTarget "Biotrem" */;
+			buildPhases = (
+				EA11F8DC1F1CAFA8003AA291 /* Sources */,
+				EA11F8DD1F1CAFA8003AA291 /* Frameworks */,
+				EA11F8DE1F1CAFA8003AA291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Biotrem;
+			productName = Biotrem;
+			productReference = EA11F8E01F1CAFA8003AA291 /* Biotrem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA11F8D81F1CAFA8003AA291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Marcin Pietrzak";
+				TargetAttributes = {
+					EA11F8DF1F1CAFA8003AA291 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KZM8JH55Z4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA11F8DB1F1CAFA8003AA291 /* Build configuration list for PBXProject "Biotrem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA11F8D71F1CAFA8003AA291;
+			productRefGroup = EA11F8E11F1CAFA8003AA291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA11F8DF1F1CAFA8003AA291 /* Biotrem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA11F8DE1F1CAFA8003AA291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA11F8F01F1CAFA8003AA291 /* LaunchScreen.storyboard in Resources */,
+				EA11F8ED1F1CAFA8003AA291 /* Assets.xcassets in Resources */,
+				EA11F8EB1F1CAFA8003AA291 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA11F8DC1F1CAFA8003AA291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA11F90F1F1CF096003AA291 /* OfferDetailsViewController.swift in Sources */,
+				EA11F8FC1F1CEF75003AA291 /* TechnologyViewController.swift in Sources */,
+				EA11F9011F1CEFD5003AA291 /* WhereToBuyTableViewController.swift in Sources */,
+				EA11F9141F1DFD50003AA291 /* EmailUsViewController.swift in Sources */,
+				EA11F9111F1CF10A003AA291 /* DetailsWhereToBuyViewController.swift in Sources */,
+				EA11F90D1F1CF083003AA291 /* OfferTableViewCell.swift in Sources */,
+				EA11F8E41F1CAFA8003AA291 /* AppDelegate.swift in Sources */,
+				EA11F8FE1F1CEFAE003AA291 /* BranViewController.swift in Sources */,
+				EA11F9031F1CEFE6003AA291 /* WhereToBuyTableViewCell.swift in Sources */,
+				EA11F8F91F1CEF47003AA291 /* OurIdeaViewController.swift in Sources */,
+				EA11F90B1F1CF072003AA291 /* OfferTableViewController.swift in Sources */,
+				EA11F8E61F1CAFA8003AA291 /* FirstViewController.swift in Sources */,
+				EA11F9081F1CF045003AA291 /* ContactUsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA11F8E91F1CAFA8003AA291 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA11F8EA1F1CAFA8003AA291 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA11F8EE1F1CAFA8003AA291 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA11F8EF1F1CAFA8003AA291 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA11F8F21F1CAFA8003AA291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA11F8F31F1CAFA8003AA291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA11F8F51F1CAFA8003AA291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KZM8JH55Z4;
+				INFOPLIST_FILE = Biotrem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.archercode.Biotrem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA11F8F61F1CAFA8003AA291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KZM8JH55Z4;
+				INFOPLIST_FILE = Biotrem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.archercode.Biotrem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA11F8DB1F1CAFA8003AA291 /* Build configuration list for PBXProject "Biotrem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA11F8F21F1CAFA8003AA291 /* Debug */,
+				EA11F8F31F1CAFA8003AA291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA11F8F41F1CAFA8003AA291 /* Build configuration list for PBXNativeTarget "Biotrem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA11F8F51F1CAFA8003AA291 /* Debug */,
+				EA11F8F61F1CAFA8003AA291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA11F8D81F1CAFA8003AA291 /* Project object */;
+}
